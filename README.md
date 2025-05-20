@@ -58,3 +58,20 @@ Commande pour exécuter :
 mvn compile
 mvn exec:java -Dexec.mainClass="com.github.seif.creational.builder.BuilderDemo"
 ```
+
+---
+
+## ✅ Pattern #4 – Strategy
+
+📁 Chemin : `com.github.seif.behavioral.strategy`
+
+Le pattern Strategy permet de changer dynamiquement le comportement d’un objet en encapsulant des algorithmes (stratégies) interchangeables.
+
+Exemple : `PriceCalculator` applique différentes stratégies de remise (`NoDiscount`, `SeasonalDiscount`, `ClearanceDiscount`).
+
+Commande pour exécuter :
+
+```bash
+mvn compile
+mvn exec:java -Dexec.mainClass="com.github.seif.behavioral.strategy.StrategyDemo"
+```

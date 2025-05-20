@@ -24,3 +24,37 @@ Commande pour exécuter :
 mvn compile
 mvn exec:java -Dexec.mainClass="com.github.seif.creational.singleton.SingletonDemo"
 ```
+
+---
+
+## ✅ Pattern #2 – Factory Method (Version simple)
+
+📁 Chemin : `com.github.seif.creational.factorysimple`
+
+Ce pattern permet de créer des objets sans que le code client ne connaisse leur classe concrète.
+
+Exemple : `ShapeFactory` retourne un objet `Shape` (`Circle`, `Square`) selon une chaîne de caractères.
+
+Commande pour exécuter :
+
+```bash
+mvn compile
+mvn exec:java -Dexec.mainClass="com.github.seif.creational.factorysimple.FactorySimpleDemo"
+```
+
+---
+
+## ✅ Pattern #3 – Builder
+
+📁 Chemin : `com.github.seif.creational.builder`
+
+Le Builder permet de construire un objet complexe étape par étape (ex : avec des champs optionnels) sans exposer les détails de création.
+
+Exemple : `UserBuilder` permet de créer un `User` avec ou sans âge, téléphone, adresse…
+
+Commande pour exécuter :
+
+```bash
+mvn compile
+mvn exec:java -Dexec.mainClass="com.github.seif.creational.builder.BuilderDemo"
+```

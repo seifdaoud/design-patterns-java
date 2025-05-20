@@ -75,3 +75,20 @@ Commande pour exécuter :
 mvn compile
 mvn exec:java -Dexec.mainClass="com.github.seif.behavioral.strategy.StrategyDemo"
 ```
+
+---
+
+## ✅ Pattern #5 – Decorator
+
+📁 Chemin : `com.github.seif.structural.decorator`
+
+Le pattern Decorator permet d’ajouter dynamiquement des fonctionnalités à un objet sans modifier sa classe.
+
+Exemple : `SimpleCoffee` peut être enrichi avec `MilkDecorator`, `SugarDecorator`, etc.
+
+Commande pour exécuter :
+
+```bash
+mvn compile
+mvn exec:java -Dexec.mainClass="com.github.seif.structural.decorator.DecoratorDemo"
+```
